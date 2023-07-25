@@ -1,0 +1,106 @@
+.header-menu{
+    float: left;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+
+.header-menu img{
+    padding-left: 25px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+
+.navbar-kg{
+    height: 500px;
+
+}
+
+.navbar-kg h5{
+    float: left;
+    padding: 10px;
+    color: black;
+}
+.navbar-kg ul{
+    float: right;
+    padding: 10px;
+}
+
+.navbar-kg li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navbar-kg li a{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-weight:500;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.navbar-kg li a:hover{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+    box-shadow: 0px 0px 10px inset;
+    transition-duration: 0.5s;
+}
+
+.navbar-kg{
+    float: left;
+    width: 100%;
+    background-image: url("https://iotweek.org/wp-content/uploads/2018/10/IOTWeek_PP-hero_Full-HD_1920x1080-Blank-Background.jpg");
+    background-attachment: fixed;
+        background-size: cover;
+}
+
+.heading-for-paper{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.heading-for-paper h1{
+    color: white;
+}
+
+.submission{
+    display: flex;
+    float: left;
+    width: 100%;
+    flex-direction: column;
+}
+
+.submission img{
+    padding: 30px;
+}
+
+#payment{
+    width: 300px;
+    padding: 30px;
+}
+
+.submission h5{
+    padding-left: 30px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.submission h6{
+    padding-left: 30px;
+    line-height: 40px;
+    text-align: justify;
+}
