@@ -1,4 +1,4 @@
-.header-menu{
+/* .header-menu{
     float: left;
     width: 100%;
     position: fixed;
@@ -76,43 +76,61 @@
 .heading-for-paper h1{
     color: white;
 }
-
-
-.submission img{
-    margin: 20px;
-    padding: 30px;
-    width: 400px;
-    box-shadow: 0px 0px 10px;
+ */
+.navbar-kg {
+  height: 500px;
+  background-image: url("https://semidotinfotech.com/blog/wp-content/uploads/2020/08/IoT-and-AI-1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.heading-for-paper {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 15pc;
 }
 
-
-.submission h5{
-    padding-left: 30px;
-    line-height: 40px;
+.heading-for-paper h1 {
+  color: rgb(255, 255, 255);
 }
 
-.submission p{
-    padding-left:30px;
-    line-height: 25px;
-    font-weight: 500;
-    text-align: justify;
+.submission img {
+  margin: 20px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0px 0px 10px;
 }
 
-.submission ul{
-    font-weight: 500;
+.submission h5 {
+  padding-left: 30px;
+  line-height: 40px;
 }
-.johndhaynes{
-    background-color: bisque;
+
+.submission p {
+  padding-left: 30px;
+  line-height: 25px;
+  font-weight: 500;
+  text-align: justify;
 }
-.petermatkinson{
-    background-color: bisque;
+
+.submission ul {
+  font-weight: 500;
 }
-.duraisamybalaganesh{
-    background-color: bisque;
+.johndhaynes {
+  background-color: bisque;
 }
-.BremananthRamachandran{
-    background-color: bisque;
+.petermatkinson {
+  background-color: bisque;
 }
-.RajaSreedharan{
-    background-color: bisque;
+.duraisamybalaganesh {
+  background-color: bisque;
+}
+.BremananthRamachandran {
+  background-color: bisque;
+}
+.RajaSreedharan {
+  background-color: bisque;
 }

@@ -1,4 +1,4 @@
-.header-menu{
+/* .header-menu{
     float: left;
     width: 100%;
     position: fixed;
@@ -103,4 +103,89 @@
     padding-left: 30px;
     line-height: 40px;
     text-align: justify;
+} */
+
+/* Call for Papers page specific styles */
+.header-menu {
+  float: left;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.header-menu img {
+  padding-left: 25px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.navbar-kg {
+  height: 500px;
+  background-image: url("https://iotweek.org/wp-content/uploads/2018/10/IOTWeek_PP-hero_Full-HD_1920x1080-Blank-Background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.heading-for-paper {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 15pc;
+}
+
+.heading-for-paper h1 {
+  color: rgb(255, 255, 255);
+}
+
+.about-conference p {
+  margin: 20px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 700px) {
+  .header-menu {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+  .header-menu ul {
+    display: none;
+  }
+
+  .header-menu li {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .header-menu a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .active {
+    background-color: #04aa6d;
+    color: white;
+  }
+
+  .conference-details {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

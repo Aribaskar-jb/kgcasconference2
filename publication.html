@@ -1,33 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="publication.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
-    <title>Publication</title>
-</head>
-<body>
-    <div class="navbar-kg">
-        <div class="header-menu">
-        <img src="images/logo.png">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="committee.html">Committee</a></li>
-            <li><a href="callforpapers.html">Call for Papers</a></li>
-            <li><a href="keynote.html">KeyNote</a></li>
-            <li><a href="publication.html">Publication</a></li>
-            <li><a href="registration.html">Registration</a></li>
-            <li><a href="venue.html">Venue</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>    
-    </div>
-    <div class="heading-for-paper">
-        <h1>Publication</h1>
-    </div>
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="publication.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
+    <title>Publication</title>
+  </head>
+  <body>
+    <div class="navbar-kg">
+      <div class="navbar-kg">
+        <div class="navbar-kg">
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light"
+            style="height: 5pc; position: fixed; width: 100%"
+          >
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./img/KGCAS Logo & NAAC.png" width="250" alt="Logo" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                id="navbarToggleBtn"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarNav"
+                style="
+                  background-color: #f8f9fa;
+                  border-radius: 10px 10px 20px 20px;
+                "
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="committee.html">Committee</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="callforpapers.html"
+                      >Call for Papers</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="keynote.html">KeyNote</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="publication.html">Publication</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html"
+                      >Registration</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="venue.html">Venue</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="heading-for-paper">
+            <h1>Publication</h1>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
 
@@ -38,7 +94,7 @@
             
             <div class="submission">
               
-                <div class="johndhaynes"><h5>John D Haynes</h5></div>
+                <div class="johndhaynes" style="margin-top: 50px;"><h5>John D Haynes</h5></div>
                 <img src="https://th.bing.com/th/id/OIP.wSR6lJV-ulmIvsjz1VnJIwHaE7?pid=ImgDet&rs=1">
                 <h5> Professor for Theory and Analysis of Large-Scale Brain Signals,<br> Charite - Universitätsmedizin
                     <br> Berlin, Germany.<br>Director Emai-ID :<a href="haynes@bccn-berlin.de">haynes@bccn-berlin.de</a></h5>
@@ -87,8 +143,15 @@ These interdisciplinary science questions relate to understanding:
                     <h5>Senior lecturer in Operations and supply chain management,<br>
                         Cardiff school of management,<br> cardiff metropolitan university,<br> cardiff, wales, UK.</h5>
                     <p>Raja Sreedharan is a Senior Lecturer at Cardiff Met University. Previously he was with the School of Management at the University of Bradford as a Lecturer in supply chain management.<br> He is a certified Six Sigma green belt. He has published his works in peer-reviewed journals, and his current research interests focus on managing the VUCA in business operations. His works are focused on productivity paradox and process improvement for industries to achieve sustainable business outcomes. He gained his corporate exposure working with Apollo Hospital as an external auditor for 5S implementation and spearheading the operations for the entire southern region in Tamil Nadu, India</p>
-                <hr/></div
-                    
-        </div></div>
-</body>
+                <hr/></div>
+                </div>
+                <script>
+                    const navbarToggleBtn = document.getElementById("navbarToggleBtn");
+                    const navbarNav = document.getElementById("navbarNav");
+              
+                    navbarToggleBtn.addEventListener("click", function () {
+                      navbarNav.classList.toggle("show");
+                    });
+                  </script>
+  </body>
 </html>

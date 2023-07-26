@@ -1,68 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="registration.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registration.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
     <title>Registration</title>
-]</head>
-<body>
+  </head>
+  <body>
     <div class="navbar-kg">
-        <div class="header-menu">
-        <img src="images/logo.png">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="committee.html">Committee</a></li>
-            <li><a href="callforpapers.html">Call for Papers</a></li>
-            <li><a href="keynote.html">KeyNote</a></li>
-            <li><a href="publication.html">Publication</a></li>
-            <li><a href="registration.html">Registration</a></li>
-            <li><a href="venue.html">Venue</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>    
+      <div>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light"
+          style="height: 5pc; position: fixed; width: 100%"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="./img/KGCAS Logo & NAAC.png" width="250" alt="Logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              id="navbarToggleBtn"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+              style="
+                background-color: #f8f9fa;
+                border-radius: 10px 10px 20px 20px;
+              "
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="committee.html">Committee</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="callforpapers.html"
+                    >Call for Papers</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="keynote.html">KeyNote</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="publication.html">Publication</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="registration.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="venue.html">Venue</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="heading-for-paper">
+          <h1>Registration</h1>
+        </div>
+      </div>
     </div>
-    <div class="heading-for-paper">
-        <h1>Registration</h1>
+    <div style="padding: 60px; margin-left: 80px">
+      <div>
+        <div>
+          <h2>Important Dates</h2>
+          <h5>Paper Submission Due: 04-12-2023</h5>
+          <h5>Authors Notification: 10.07.2023</h5>
+          <h5>Registration with camera-ready paper due : 09-02-2024</h5>
+        </div>
+        <div>
+          <h6>
+            The softcopy of camera-ready paper shall be submitted to:
+            <a href="https://forms.gle/EYCKXrmUZvbqs3uu9"
+              >https://forms.gle/EYCKXrmUZvbqs3uu9</a
+            >
+            <br />The guidelines for paper preparation is available at:
+            <a
+              href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines"
+              >https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines</a
+            >
+          </h6>
+        </div>
+        <div style="margin: 50px 0px">
+          <h2>Registration Fee</h2>
+          <img src="images/tariff.png" alt="" />
+          <h6>
+            Co-authors of accepted and registered papers are requested to pay
+            1500 INR as a spot registration fee for participation in the
+            technical programme, a softcopy of the proceedings, a conference
+            kit, and lunch.
+          </h6>
+          <div style="margin: 50px 0px">
+            <h2>Payment Information</h2>
+            <h6>
+              Authors are requested to register for the conference by paying the
+              registration fee to the following account:<br />
+
+              Name: KG College of Arts and Science<br />
+
+              Bank: Canara Bank<br />
+
+              Branch: Saravanampatti<br />
+
+              Account No:62030885098<br />
+
+              IFSC Code: SBIN0020450<br />
+
+              Alternatively, registration fee can be paid through the following
+              QR:
+            </h6>
+            <img src="images/paymentqr.png" id="payment" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<div class="container">
+    <script>
+      const navbarToggleBtn = document.getElementById("navbarToggleBtn");
+      const navbarNav = document.getElementById("navbarNav");
 
-    <div class="conference-details">
-        
-        <div class="submission">
-            <h2>Important Dates</h2>
-            <h5>Paper Submission Due: 04-12-2023</h5>
-            <h5>Authors Notification: 10.07.2023</h5>
-            <h5>Registration with camera-ready paper due  : 09-02-2024</h5>
-            <hr/></div>
-        <div class="submission">
-            <h6>The softcopy of camera-ready paper shall be submitted to: <a href="https://forms.gle/EYCKXrmUZvbqs3uu9">https://forms.gle/EYCKXrmUZvbqs3uu9</a> 
-                <br>The guidelines for paper preparation is available at: <a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines</a></h6>
-            <hr/></div>
-
-            <div class="submission">
-                <h2>Registration Fee</h2>
-                <img src="images/tariff.png" alt="">
-                <h6>Co-authors of accepted and registered papers are requested to pay 1500 INR as a spot registration fee for participation in the technical programme, a softcopy of the proceedings, a conference kit, and lunch.</h6>
-                <hr/></div>
-                <div class="submission">
-                    <h2>Payment Information</h2>
-                    <h6>Authors are requested to register for the conference by paying the registration fee to the following account:<br>
-
-                        Name: KG College of Arts and Science<br>
-                        
-                        Bank: Canara Bank<br>
-                        
-                        Branch: Saravanampatti<br>
-                        
-                        Account No:62030885098<br>
-                        
-                        IFSC Code: SBIN0020450<br>
-                        
-                        Alternatively, registration fee can be paid through the following QR:</h6>
-                        <img src="images/paymentqr.png" id="payment" alt="">
-                    <hr/></div>
-</body>
+      navbarToggleBtn.addEventListener("click", function () {
+        navbarNav.classList.toggle("show");
+      });
+    </script>
+  </body>
 </html>
