@@ -1,4 +1,4 @@
-.header-menu{
+/* .header-menu{
     margin: 0px;
     float: left;
     width: 100%;
@@ -99,4 +99,131 @@
     line-height: 25px;
     font-weight: 500;
     text-align: justify;
+} */
+/* CSS styles here */
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Call for Papers page specific styles */
+.header-menu {
+  margin: 0;
+  float: left;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.header-menu img {
+  padding-left: 25px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.navbar-kg {
+  height: 500px;
+}
+
+.navbar-kg h5 {
+  float: left;
+  padding: 10px;
+  color: black;
+}
+
+.navbar-kg ul {
+  float: right;
+  padding: 10px;
+}
+
+.navbar-kg li {
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.header-menu a {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-weight: 500;
+  padding: 10px;
+  transition-duration: 0.5s;
+}
+
+.header-menu a:hover {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  padding: 10px;
+  box-shadow: 0px 0px 10px inset;
+  transition-duration: 0.5s;
+}
+
+.conference-details {
+  width: 100%;
+  padding: 80px 15%;
+  display: flex;
+}
+
+.navbar-kg {
+  float: left;
+  width: 100%;
+  background-image: url("https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/968e58b0662932587f2f6a53c718e046.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.heading-for-paper {
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading-for-paper h1 {
+  color: white;
+}
+
+.submission img {
+  margin: 20px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 0px 10px;
+}
+
+.submission h5 {
+  padding-left: 30px;
+  line-height: 40px;
+}
+
+.submission p {
+  padding-left: 30px;
+  line-height: 25px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 700px) {
+  .navbar-kg {
+    height: 300px;
+  }
+
+  .heading-for-paper {
+    height: 200px;
+    margin-top: 50px;
+  }
 }
