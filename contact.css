@@ -1,4 +1,4 @@
-.header-menu{
+/* .header-menu{
     float: left;
     width: 100%;
     position: fixed;
@@ -79,4 +79,66 @@
 
 .about-conference h5{
     line-height: 40px;
-}
+} */
+.navbar-kg {
+    height: 500px;
+    background-image: url("https://www.mep.hr/wp-content/uploads/2018/03/BG-Kontakt.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .heading-for-paper {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15pc;
+  }
+  
+  .heading-for-paper h1 {
+    color: rgb(255, 255, 255);
+  }
+  
+  .submission img {
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0px 0px 10px;
+  }
+  
+  .submission h5 {
+    padding-left: 30px;
+    line-height: 40px;
+  }
+  
+  .submission p {
+    padding-left: 30px;
+    line-height: 25px;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  .submission ul {
+    font-weight: 500;
+  }
+  .johndhaynes {
+    background-color: bisque;
+  }
+  .petermatkinson {
+    background-color: bisque;
+  }
+  .duraisamybalaganesh {
+    background-color: bisque;
+  }
+  .BremananthRamachandran {
+    background-color: bisque;
+  }
+  .RajaSreedharan {
+    background-color: bisque;
+  }
+  .conference-details{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+  }
