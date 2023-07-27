@@ -1,113 +1,114 @@
-/* Call for Papers page specific styles */
 .header-menu {
-    float: left;
-    width: 100%;
-    position: fixed;
+  float: left;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.header-menu img {
+  padding-left: 25px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.navbar-kg {
+  height: 500px;
+  background-image: url("https://insuranceday.maritimeintelligence.informa.com/-/media/insurance-day/miscellaneous/insurtech2.jpg?w=790&hash=E33DFFD7C5D04D2CE695128F2D43449F5B5C789F");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.heading-for-paper {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 15pc;
+}
+
+.heading-for-paper h1 {
+  color: black;
+}
+
+.submission {
+  padding: 35px;
+  margin: 20px;
+  float: left;
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px;
+  align-items: center;
+}
+
+.submission h6 {
+  font-weight: 500;
+  line-height: 30px;
+  padding: 40px;
+}
+
+.about-conference p {
+  margin: 20px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 700px) {
+  .header-menu {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+  .header-menu ul {
+    display: none;
+  }
+
+  .header-menu li {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .header-menu a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
     top: 0;
-    background-color: white;
   }
-  
-  .header-menu img {
-    padding-left: 25px;
-    margin-top: 10px;
-    width: 100px;
-  }
-  
-  .navbar-kg {
-    height: 500px;
-    background-image: url("https://insuranceday.maritimeintelligence.informa.com/-/media/insurance-day/miscellaneous/insurtech2.jpg?w=790&hash=E33DFFD7C5D04D2CE695128F2D43449F5B5C789F");
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  
-  .heading-for-paper {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 15pc;
-  }
-  
-  .heading-for-paper h1 {
+
+  .topnav a:hover {
+    background-color: #ddd;
     color: black;
   }
-  
-  .submission {
-    padding: 35px;
-    margin: 20px;
-    float: left;
-    width: 45%;
+
+  .active {
+    background-color: #04aa6d;
+    color: white;
+  }
+
+  .conference-details {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    box-shadow: 0px 0px 10px;
-    align-items: center;
   }
-  
+
+  .submission {
+    width: 100%;
+    padding: 15px;
+  }
+
   .submission h6 {
-    font-weight: 500;
-    line-height: 30px;
-    padding: 40px;
+    padding: 15px;
   }
-  
-  .about-conference p {
-    margin: 20px;
-  }
-  
-  /* Media queries for responsiveness */
-  @media screen and (max-width: 700px) {
-  
-    .header-menu {
-      overflow: hidden;
-      background-color: #333;
-      position: relative;
-    }
-  
-    .header-menu ul {
-      display: none;
-    }
-  
-    .header-menu li {
-      color: white;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      display: block;
-    }
-  
-    .header-menu a.icon {
-      background: black;
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-  
-    .active {
-      background-color: #04AA6D;
-      color: white;
-    }
-  
-    .conference-details {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    .submission {
-      width: 100%;
-      padding: 15px;
-    }
-  
-    .submission h6 {
-      padding: 15px;
-    }
-  }
-  
+}
+hr{
+  position: relative;
+  z-index: -1;
+}
