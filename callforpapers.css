@@ -1,3 +1,4 @@
+/* Call for Papers page specific styles */
 .header-menu {
   float: left;
   width: 100%;
@@ -35,9 +36,9 @@
 
 .submission {
   padding: 35px;
-  margin: 20px;
+  margin: 10px;
   float: left;
-  width: 45%;
+  width: 47%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -49,6 +50,7 @@
   font-weight: 500;
   line-height: 30px;
   padding: 40px;
+  align-items: center;
 }
 
 .about-conference p {
@@ -57,6 +59,7 @@
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 700px) {
+
   .header-menu {
     overflow: hidden;
     background-color: #333;
@@ -89,7 +92,7 @@
   }
 
   .active {
-    background-color: #04aa6d;
+    background-color: #04AA6D;
     color: white;
   }
 
@@ -107,8 +110,4 @@
   .submission h6 {
     padding: 15px;
   }
-}
-hr{
-  position: relative;
-  z-index: -1;
 }

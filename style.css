@@ -7,6 +7,7 @@
 .navbar-nav{
     margin-left: 20px;
 }
+
 .header-menu img {
   padding-left: 25px;
   margin-top: 10px;
@@ -35,6 +36,7 @@
   font-weight: 500;
   line-height: 30px;
   padding: 40px;
+  text-align: justify;
 }
 
 .aboutconference,
@@ -45,18 +47,14 @@
   margin-bottom: 20px;
 }
 .jumbotron {
-  background-image: url("https://i.pinimg.com/originals/91/1e/ef/911eefb0b1b239f0c6d30c0b20761d47.jpg");
+  background-image: url("https://wallpaperaccess.com/full/3202442.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   margin-bottom: 50px;
   height: 500px;
   padding: 200px;
-  color: rgb(
-    0,
-    0,
-    0
-  ); /* Add text color for visibility on the background image */
+  color: white; /* Add text color for visibility on the background image */
 
   /* Media queries for responsive adjustments */
   @media (max-width: 968px) {
